@@ -1,4 +1,4 @@
-import PopTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 function Genres({ genresList }) {
     return (
@@ -33,7 +33,7 @@ function Genres({ genresList }) {
     genresList: []
   }
   
-  Genres.propTypes = {
+  Genres.PropTypes = {
     // genresList: PropTypes.array.isRequired
     genresList: PropTypes.arrayOf(PropTypes.shape({
       name: PropTypes.string.isRequired,

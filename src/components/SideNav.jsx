@@ -1,6 +1,6 @@
 import LogoDH from "../images/logo-DH.png";
 
-function Sidenav (props) {
+function SideNav (props) {
   return (
     <ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
       <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
@@ -37,4 +37,4 @@ function Sidenav (props) {
   )
 }
 
-export default Sidenav;
+export default SideNav;
